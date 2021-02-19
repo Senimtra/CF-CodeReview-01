@@ -71,6 +71,20 @@ div#main {
     height: 500px;
 }
 
+
+/* ### Full width articles styles ### */
+
+.fullwidth div {
+    width: 45%;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* ### Columns articles styles ### */
+
 .column {
     width: 44%;
     margin-left: 5%;
