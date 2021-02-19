@@ -9,6 +9,12 @@
     width: 750px;
     font-family: "Roboto", sans-serif;
     text-align: center;
+    border: 1px solid black;
+}
+
+#content {
+    border: 1px solid black;
+    height: 50vh;
 }
 
 
