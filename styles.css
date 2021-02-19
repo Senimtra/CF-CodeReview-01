@@ -1,20 +1,8 @@
-* {
-    spacing: 0;
-    padding: 0;
+/* ### Header / Footer bar color ### */
+
+.barcolor {
+    background-color: #CABBB7;
 }
-
-div {
-    border: 1px solid black;
-}
-
-
-/* ################################################################################# ^ just for creating purposes */
-
-
-/* ################################################################################# */
-
-
-/* ### Wrapper and header footer color ### */
 
 #wrapper {
     margin: auto;
@@ -22,70 +10,143 @@ div {
     font-family: "Roboto", sans-serif;
 }
 
-.barcolor {
-    background-color: #CABBB7;
-}
 
-
-/* ### Header styles ### */
+/* ### Header begins here ### */
 
 #header {
-    height: 130px;
-}
-
-#header span {
-    font-weight: bold;
-    font-size: 115%;
-    position: relative;
-    top: 47%;
-    left: 12%;
+    height: 133px;
 }
 
 #header img {
     max-width: 32%;
     float: right;
-    padding: 3.5% 5%;
+    padding: 3.5% 4.5%;
+}
+
+#header span {
+    font-size: 120%;
+    position: relative;
+    left: 12%;
+    top: 50%;
 }
 
 
-/* ### Menu bar styles ### */
+/* ### Menu bar begins here ### */
 
 #menu {
+    width: 100%;
     background-color: #C65252;
-    text-align: right;
-    padding-right: 60px;
-    height: 42px;
 }
 
-#menu a {
-    color: white;
-    font-size: 120%;
-    font-weight: bold;
-    text-decoration: none;
+#menu ul {
     position: relative;
-    bottom: 7px;
-    padding-right: 15px;
+    left: 46.5%;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#menu ul li {
+    padding: 2% 4% 2.5% 0;
+    float: left;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 125%;
 }
 
 
-/* ################################################ CONTENT */
+/* ### Headline begins here ### */
+
+#headline {
+    width: 43%;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+#headline p {
+    position: relative;
+    top: -16px;
+}
 
 
-/* ### Footer styles ### */
+/* ### Full width article begins here ### */
+
+#image.fullwidth {
+    height: 13.5vh;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.fullwidth img {
+    width: 85%;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.fullwidth p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 115%;
+    position: relative;
+    word-spacing: 0.5px;
+    bottom: 0.9vh;
+}
+
+
+/* ### Columns articles begin here ### */
+
+.column {
+    width: 38.75%;
+    display: inline-block;
+    margin-left: 7.5%;
+    position: relative;
+    bottom: 1vh;
+    float: left;
+}
+
+.column img {
+    width: 100%;
+}
+
+.column p {
+    font-size: 118%;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 1vh;
+}
+
+
+/* ### Footer begins here ### */
 
 #footer {
-    height: 110px;
+    position: relative;
+    bottom: 1.5vh;
+    height: 115px;
+    clear: both;
 }
 
 #footer img {
+    padding-top: 1.75%;
     display: block;
-    margin: 1.25% auto 0 auto;
-    max-width: 21%;
+    margin: auto;
+    max-width: 20%;
 }
 
-#footer div {
+#footer p {
     text-align: center;
-    margin-top: 1.25%;
     font-weight: bold;
+    margin-top: 2%;
     font-size: 75%;
+    border: none;
 }

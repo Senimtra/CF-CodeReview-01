@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- ### Head begins ### -->
+<!-- ### Head begins here ### -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,53 +9,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <!-- ### trying to make it responsive ### -->
+    <!-- ### making it more responsive ### -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ### Roboto-Font add from google ### -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Gregor Code Review 01</title>
 </head>
 
-<!-- ### Body begins ### -->
+<!-- ### Body begins here ### -->
 
 <body>
     <div id="wrapper">
 
-        <!-- ### Header begins ### -->
+        <!-- ### Header begins here ### -->
 
         <header>
+
             <div id="header" class="barcolor">
                 <span>Gregor - Full-Stack Web Developer</span>
                 <img src="./images/logo.png" alt="CodeFactory Vienna">
             </div>
         </header>
 
-        <!-- ### Menu begins ### -->
+        <!-- ### Menu begins here ### -->
 
         <nav>
             <div id="menu">
                 <ul>
-                    <a href="#">Home</a>
-                    <a href="#">Blog</a>
-                    <a href="#">About me</a>
-                    <a href="#">Contact</a>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
-        <!-- ### Main begins ### #################################### Question for later: do i need ids AND classes here? -->
+        <!-- ### Content begins here ### -->
 
         <main>
             <div id="headline">
                 <p>This is my first website :D</p>
             </div>
             <article>
-                <div class="fullwidth">
+                <div id="image" class="fullwidth">
                     <img src="./images/Phone.png">
+                </div>
+                <!-- kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk-->
+                <div id="text" class="fullwidth">
                     <p>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</p>
                 </div>
             </article>
@@ -78,7 +83,7 @@
         <footer>
             <div id="footer" class="barcolor">
                 <img src="./images/logo.png" alt="CodeFactory Vienna">
-                <div>Gregor - CodeFactory 2020</div>
+                <p>Gregor - CodeFactory 2020</p>
             </div>
         </footer>
     </div>
