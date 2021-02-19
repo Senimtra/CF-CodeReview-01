@@ -12,6 +12,15 @@
 }
 
 
+/* ### Content container ### */
+
+#content {
+    width: 748px;
+    border: 1px solid black;
+    height: 700px;
+}
+
+
 /* ### Header begins here ### */
 
 #header {
