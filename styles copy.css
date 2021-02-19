@@ -7,11 +7,13 @@ div {
     border: 1px solid black;
 }
 
+img {
+    border: 1px solid black;
+    width: 100%;
+}
+
 
 /* ################################################################################# ^ just for creating purposes */
-
-
-/* ################################################################################# */
 
 
 /* ### Wrapper and header footer color ### */
@@ -69,6 +71,37 @@ div {
 
 
 /* ################################################ CONTENT */
+
+div#main {
+    height: 80vh;
+}
+
+
+/* ### Full width articles styles ### */
+
+#headline {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.fullwidth {
+    width: 85%;
+    margin: auto;
+}
+
+.fullwidth img {
+    overflow: hidden;
+}
+
+
+/* ### Columns articles styles ### */
+
+.column {
+    width: 44%;
+    margin-left: 5%;
+    float: left;
+}
 
 
 /* ### Footer styles ### */
