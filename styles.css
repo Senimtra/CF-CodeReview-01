@@ -10,6 +10,9 @@ img {
 
 /* ################################################################################# ^ just for creating purposes */
 
+
+/* ### Wrapper and header footer color ### */
+
 #wrapper {
     margin: auto;
     width: 750px;
@@ -59,4 +62,24 @@ img {
     position: relative;
     bottom: 7px;
     padding-right: 15px;
+}
+
+
+/* ### Footer styles ### */
+
+#footer {
+    height: 110px;
+}
+
+#footer img {
+    display: block;
+    margin: 1.25% auto 0 auto;
+    max-width: 21%;
+}
+
+#footer div {
+    text-align: center;
+    margin-top: 1.25%;
+    font-weight: bold;
+    font-size: 75%;
 }
