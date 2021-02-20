@@ -5,6 +5,8 @@
     height: 470px;
     border: 1px solid black;
     margin: auto;
+    background-image: url("./images/contact.jpg");
+    background-size: cover;
 }
 
 
@@ -19,4 +21,10 @@ h2 {
 
 #container>* {
     font-family: "Atma", cursive;
+}
+
+#contactform {
+    position: relative;
+    transform: rotate(-1.55deg);
+    top: 105px;
 }
