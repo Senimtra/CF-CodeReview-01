@@ -25,3 +25,20 @@ h2 {
 #container>* {
     font-family: "Share Tech", sans-serif;
 }
+
+#photo {
+    width: 550px;
+    height: 410px;
+    position: relative;
+    top: -47px;
+    background-color: #ffffffbb;
+    margin: auto;
+    padding: 10px;
+}
+
+#photo img {
+    width: 250px;
+    background-size: cover;
+    margin-right: 10px;
+    float: left;
+}
