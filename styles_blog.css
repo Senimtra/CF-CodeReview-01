@@ -5,6 +5,8 @@
     height: 470px;
     border: 1px solid black;
     margin: auto;
+    background-image: url("./images/blog.jpg");
+    background-size: cover;
 }
 
 
