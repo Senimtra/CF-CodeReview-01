@@ -114,13 +114,15 @@ body {
     margin: auto;
 }
 
-.fullwidth p {
+.fullwidth a {
     text-align: center;
     font-weight: bold;
     font-size: 115%;
     position: relative;
     word-spacing: 0.5px;
     bottom: 12px;
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -143,15 +145,20 @@ body {
 }
 
 .column img {
+    position: relative;
+    top: 16px;
     width: 100%;
+    max-height: 158px;
 }
 
-.column p {
+.column a {
     font-size: 115%;
     font-weight: bold;
     text-align: center;
     position: relative;
     bottom: 15px;
+    text-decoration: none;
+    color: black;
 }
 
 
