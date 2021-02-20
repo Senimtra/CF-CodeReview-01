@@ -2,7 +2,19 @@
 
 #contact {
     width: 618px;
-    height: 500px;
+    height: 470px;
     border: 1px solid black;
     margin: auto;
+}
+
+
+/* ### Sub-Headline begins here ### */
+
+h2 {
+    position: relative;
+    top: -75px;
+}
+
+#contact>* {
+    font-family: "Calligraffitti", cursive;
 }
