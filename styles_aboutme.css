@@ -22,3 +22,29 @@ h2 {
 #container>* {
     font-family: "Atma", cursive;
 }
+
+.small {
+    width: 200px;
+    height: 175px;
+    background-color: #524a4ac4;
+}
+
+#aboutme1 {
+    position: relative;
+    top: -35px;
+    left: 50px;
+}
+
+#aboutme2 {
+    position: relative;
+    left: 50px;
+}
+
+#aboutme3 {
+    width: 280px;
+    height: 386px;
+    top: -386px;
+    right: -290px;
+    position: relative;
+    background-color: #a1a1a1b6;
+}
