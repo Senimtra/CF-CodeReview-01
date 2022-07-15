@@ -107,11 +107,8 @@ body {
 .fullwidth img {
     width: 618px;
     position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
+    top: -87px;
+    left: -309px;
 }
 
 .fullwidth a {
